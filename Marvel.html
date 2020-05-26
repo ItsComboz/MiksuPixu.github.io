@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Marvel Infinity War</title>
+<style>
+body {
+  font-family: Elephant;
+  background-color: #0080ff;
+}
+
+header {
+  position: relative;
+  background-color: #ff0000;
+  padding: 50px;
+  text-align: center;
+  font-size: 35px;
+}
+.kuva {
+  position: absolute;
+  height: 400px;
+  width: 250px;
+}
+
+.nappi {
+  border: solid;
+  border-color: black;
+  float: left;
+  padding: 46px;
+  background-color: #0080ff;
+  font-size: 20px;
+}
+
+.sivupalkkioikea {
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 20%;
+  background-color: #c8c814;
+  height: 600px;
+  color: black;
+  font-size: 20px;
+}
+
+.sivupalkkikeski {
+float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 60%;
+  background-color: #b7aeae;
+  height: 600px;
+  color: black;
+  font-size: 20px;
+}
+
+.sivupalkkivasen {
+  float:left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 20%;
+  background-color: #c86e14;
+  height: 600px;
+  color: black;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+ 
+ * {
+margin: 0;
+}
+
+</style>
+</head>
+    <body>
+        <header>
+            <h1>Movie Raitings</h1>
+        </header>
+        
+        <p div class="sivupalkkivasen">&emsp;Avengers Infinity War</p>
+		<h2 div class="sivupalkkikeski">&emsp;Avengers Infinity War<br><img div class="kuva" src="https://cdn.europosters.eu/image/1300/julisteet/avengers-infinity-war-one-sheet-i58560.jpg" alt="Infinity War Kansikuva"></h2>
+        <p div class="sivupalkkioikea">&emsp;Super Sankarillista Paivaa</p>
+		
+		<form action="Main.html">
+        <button div class="nappi" onmouseover="Menu(this)" onmouseout="Menu1(this)">Main Page</button>
+		</form>
+
+		<form action="Alita.html">
+        <button div class="nappi" onmouseover="Alita(this)" onmouseout="Alita1(this)">Alita Battle Angel</button>
+		</form>
+		
+		<button div class="nappi" onmouseover="Marvel(this)" onmouseout="Marvel1(this)">Avengers Infinity War</button>
+		
+		<form action="Ratatoulee.html">
+        <button div class="nappi" onmouseover="Rat(this)" onmouseout="Rat1(this)">Ratatoulee</button>
+		</form>
+		
+		
+        <script>
+			function Menu(obj) {
+  			obj.style.backgroundColor = "#1ec9e5";
+  			obj.innerHTML = "Main Page";
+			}
+            
+			function Menu1(obj) {
+ 		 	obj.style.backgroundColor="#0080ff";
+  			obj.innerHTML="Main Page";
+			}
+
+            function Alita(obj) {
+  			obj.style.backgroundColor = "#00ff00";
+  			obj.innerHTML = "Alita Battle Angel";
+			}
+            
+            function Alita1(obj) {
+ 		 	obj.style.backgroundColor="#0080ff";
+  			obj.innerHTML="Alita Battle Angel";
+			}
+
+            function Marvel(obj) {
+  			obj.style.backgroundColor = "#ff00bf";
+  			obj.innerHTML = "Avengers Infinity War";
+			}
+            
+            function Marvel1(obj) {
+ 		 	obj.style.backgroundColor="#0080ff";
+  			obj.innerHTML="Avengers Infinity War";
+			}
+
+            function Rat(obj) {
+  			obj.style.backgroundColor = "#ff0000";
+  			obj.innerHTML = "Ratatoulee";
+			}
+            
+            function Rat1(obj) {
+  			obj.style.backgroundColor = "#0080ff";
+  			obj.innerHTML = "Ratatoulee";
+			}
+
+		</script>
+      
+    </body>
+</html>
